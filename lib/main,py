@@ -1,0 +1,36 @@
+# from peewee import *
+
+# db = PostgresqlDatabase('note_taker', user='postgres', password='123', host='localhost', port=5432)                  
+
+# db.connect()
+
+
+# class BaseModel(Model):
+#     class Meta:
+#         database = db
+
+# class Person(BaseModel):
+#   name = CharField()
+#   birth_year = CharField()
+
+
+# db.drop_tables([Person])
+# db.create_tables([Person])
+
+# class Note(BaseModel):
+#   name = CharField()
+#   birth_year = CharField()
+
+# db.connect()
+# db.drop_tables([Person])
+# db.create_tables([Person])
+# rocky = Contacts(name='Rocky', phone_number= 1234567890, email='rocky@gmail.com')
+# rocky.save()
+
+# grab = Contacts.get(Contacts.name == 'Rocky')
+
+
+# grab = Contacts.get(Contacts.name == 'Rocky')
+# # run this in the lib (virtual) file
+# print (grab.name)
+# print(f'{grab.name} email adress is  {grab.email}')
